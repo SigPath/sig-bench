@@ -1,0 +1,18 @@
+[project]
+name = "sigbench"
+version = "1.0.0"
+description = "Benchmark lokalnych LLM (Ollama): jakość na zadaniach PL + tok/s + latencja"
+authors = [{ name = "Marcin Burda" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+sigbench = "sigbench.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sigbench"]

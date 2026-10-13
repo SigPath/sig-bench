@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIG·BENCH — raport</title><style>
+:root { color-scheme: dark; }
+body { background:#101418; color:#e8ebef; font-family: system-ui, sans-serif; margin:0; padding:40px 20px; }
+main { max-width: 860px; margin: 0 auto; }
+h1 { font-size: 26px; } h1 span { color:#ffb000; }
+.meta { color:#9aa4b0; font-size: 13px; margin: 6px 0 26px; font-family: ui-monospace, monospace; }
+table { width:100%; border-collapse: collapse; margin-bottom: 28px; }
+th, td { text-align:left; padding:10px 12px; border-bottom:1px solid #2a333e; font-size:14px; }
+thead th { font-family: ui-monospace, monospace; font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:#9aa4b0; }
+td.num { font-variant-numeric: tabular-nums; font-family: ui-monospace, monospace; }
+.score-bar { height:8px; background:#2a333e; border-radius:4px; overflow:hidden; min-width:90px; }
+.score-bar i { display:block; height:100%; background:#3ecf8e; }
+.good { color:#3ecf8e; } .bad { color:#ff6b6b; }
+.foot { color:#9aa4b0; font-size:12px; margin-top:30px; }
+a { color:#ffb000; }
+</style></head>
+<body><main>
+<h1><span>SIG·BENCH</span> — raport benchmarku lokalnych LLM</h1>
+<p class="meta">wygenerowano 2026-10-13 16:06 · 2 modeli · 5 zadań PL (logika, tłumaczenie, wiedza, streszczenie, formatowanie)</p>
+<table>
+<thead><tr><th>Model</th><th>Wynik</th><th></th><th>Latencja</th><th>Tok/s</th><th>Próbki</th></tr></thead>
+<tbody><tr><th>echo-basic</th><td class='num'>40%</td><td><span class="score-bar"><i style="width:40%"></i></span></td><td class='num'>0.00 s</td><td class='num'>0.0</td><td class='num'>10</td></tr><tr><th>echo-plus</th><td class='num'>100%</td><td><span class="score-bar"><i style="width:100%"></i></span></td><td class='num'>0.00 s</td><td class='num'>0.0</td><td class='num'>10</td></tr></tbody>
+</table>
+<h2>echo-basic</h2><ul><li><b>logika</b> — <span class='good'>100%</span> (0.00 s): <i>Ania ma 4 jabłka.</i></li><li><b>logika</b> — <span class='good'>100%</span> (0.00 s): <i>Ania ma 4 jabłka.</i></li><li><b>tlumaczenie</b> — <span class='bad'>0%</span> (0.00 s): <i>The weather is beautiful today.</i></li><li><b>tlumaczenie</b> — <span class='bad'>0%</span> (0.00 s): <i>The weather is beautiful today.</i></li><li><b>wiedza</b> — <span class='bad'>0%</span> (0.00 s): <i>Sydney</i></li><li><b>wiedza</b> — <span class='bad'>0%</span> (0.00 s): <i>Sydney</i></li><li><b>streszczenie</b> — <span class='bad'>0%</span> (0.00 s): <i>Roboty przemysłowe zmieniają produkcję. Linie montażowe pracują dniem i nocą bez przerwy, a czujniki muszą się przekwalifikować, by obsługiwać nowe maszyny.</i></li><li><b>streszczenie</b> — <span class='bad'>0%</span> (0.00 s): <i>Roboty przemysłowe zmieniają produkcję. Linie montażowe pracują dniem i nocą bez przerwy, a czujniki muszą się przekwalifikować, by obsługiwać nowe maszyny.</i></li><li><b>formatowanie</b> — <span class='good'>100%</span> (0.00 s): <i>1. czerwony 2. zielony 3. niebieski</i></li><li><b>formatowanie</b> — <span class='good'>100%</span> (0.00 s): <i>1. czerwony 2. zielony 3. niebieski</i></li></ul><h2>echo-plus</h2><ul><li><b>logika</b> — <span class='good'>100%</span> (0.00 s): <i>Ania ma 4 jabłka.</i></li><li><b>logika</b> — <span class='good'>100%</span> (0.00 s): <i>Ania ma 4 jabłka.</i></li><li><b>tlumaczenie</b> — <span class='good'>100%</span> (0.00 s): <i>Pogoda jest dziś piękna.</i></li><li><b>tlumaczenie</b> — <span class='good'>100%</span> (0.00 s): <i>Pogoda jest dziś piękna.</i></li><li><b>wiedza</b> — <span class='good'>100%</span> (0.00 s): <i>Canberra</i></li><li><b>wiedza</b> — <span class='good'>100%</span> (0.00 s): <i>Canberra</i></li><li><b>streszczenie</b> — <span class='good'>100%</span> (0.00 s): <i>Maszyny pracują bez przerwy, koszty spadają, a pracownicy muszą się przekwalifikować.</i></li><li><b>streszczenie</b> — <span class='good'>100%</span> (0.00 s): <i>Maszyny pracują bez przerwy, koszty spadają, a pracownicy muszą się przekwalifikować.</i></li><li><b>formatowanie</b> — <span class='good'>100%</span> (0.00 s): <i>1. czerwony 2. zielony 3. niebieski</i></li><li><b>formatowanie</b> — <span class='good'>100%</span> (0.00 s): <i>1. czerwony 2. zielony 3. niebieski</i></li></ul>
+<p class="foot">Wygenerowane przez <a href="https://github.com/SigPath/sig-bench">SIG·BENCH</a> · Marcin Burda · burda.eu.org</p>
+</main></body></html>
